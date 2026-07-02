@@ -4,7 +4,7 @@ function FoodCard({product, del}) {
   
     return (
     <div>
-      <div className="w-80 h-10 border-2 border-gray-300 rounded-lg p-4 m-4">
+      <div className="w-80 h-fill border-2 border-gray-300 rounded-lg p-4 m-4">
         <div className="mb-4 object-fit overflow-hidden w-70 h-50">
             <img src={product.img} alt="foodImage" className="w-full h-full object-cover position-contain rounded-lg mb-4" />
         </div>
